@@ -772,6 +772,9 @@ header {
     margin-top: 5vh;
     color: rgba(136, 136, 136, 1);
 }
+.clone {
+    pointer-events: auto;
+}
 .con7_box1 {
     position: relative;
     margin-top: 60vh;
@@ -955,7 +958,7 @@ header {
 }
 .con10_box1 {
     position: relative;
-    margin-top: 80vh;
+    margin-top: 40vh;
 }
 .con10_text1 {
     margin-top: 5vh;
