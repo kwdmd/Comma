@@ -881,6 +881,9 @@ header {
     font-size: 3.5rem;
     color: black;
 }
+.con8_box1 div:nth-child(2) {
+    margin-top: 8vh;
+}
 .con8_text2 {
     margin: 3vh;
     color: rgba(136, 136, 136, 1);
