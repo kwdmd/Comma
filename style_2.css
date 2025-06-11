@@ -1234,30 +1234,30 @@ header {
     font-size: 2rem;
 }
 .text_group {
-  opacity: 0;
-  transition: opacity 1s ease;
-  position: absolute;
-  width: 100%;
-  text-align: center;
+    opacity: 0;
+    transform: translateY(0);
+    transition: opacity 1s ease;
+    position: absolute;
+    width: 100%;
+    text-align: center;
 }
 .text_group.active {
-  opacity: 1;
-  position: relative;
+    opacity: 1;
+    transform: translateY(0);
 }
 .text_title {
-  font-size: 3rem;
-  color: black;
+    font-size: 3rem;
+    color: black;
 }
 .text_subtitle {
-  font-size: 2rem;
-  color: black;
-  margin-top: 3vh;
+    font-size: 2rem;
+    color: black;
+    margin-top: 3vh;
 }
 .text_body {
-  font-size: 1.5rem;
-  color: rgba(136, 136, 136, 1);
-  margin-top: 3vh;
-
+    font-size: 1.5rem;
+    color: rgba(136, 136, 136, 1);
+    margin-top: 3vh;
 }
 .con15_box4 {
     flex: 1;
@@ -1294,29 +1294,47 @@ header {
 }
 .con16_box1::before,
 .con16_box1::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  z-index: 2;
-  pointer-events: none;
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    pointer-events: none;
 }
 
 .con16_box1::before {
-  top: 0;
-  background: linear-gradient(to bottom, rgba(218, 255, 238, 1), rgba(255,255,255,0));
+    top: 0;
+    background: linear-gradient(to bottom, rgba(218, 255, 238, 1), rgba(255,255,255,0));
 }
 
 .con16_box1::after {
-  bottom: 0;
-  background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0));
+    bottom: 0;
+    background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0));
 }
 .section_3 {
     position: relative;
     top: 0vh;
     width: 100%;
     background: white;
+    overflow: visible;
+}
+.circle_1 {
+    position: absolute;
+    top: -15%;
+    width: 100%;
+    background: white;
+    height: 100px;
+    border-radius: 30%;
+    z-index: 2;
+}
+.circle_2 {
+    position: absolute;
+    bottom: -15%;
+    width: 100%;
+    background: white;
+    height: 100px;
+    border-radius: 30%;
 }
 .con99_box1 {
     position: relative;
@@ -1337,21 +1355,6 @@ header {
     color: rgba(136, 136, 136, 1);
     margin-top: 3vh;
 }
-/* .con99_img1 {
-    position: relative;
-    margin-top: 25vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    gap: 1%;
-    left: 50%;
-    transform: translate(-50%);
-}
-.con99_img1 div {
-    width: 60vw;
-    height: 50vh;
-    background: rgba(46, 187, 121, 1);
-} */
 .con99_img1 {
    overflow: hidden;
     width: 100%;
@@ -1361,7 +1364,6 @@ header {
     align-items: center;
     margin-top: 10vh;
 }
-
 .con99_img2 {
     display: flex;
     animation: scroll-left 30s linear infinite;
@@ -1369,7 +1371,6 @@ header {
     gap: 2vw;
     height: 100%;
 }
-
 .con99_img2 img {
     height: 100%;
     width: auto;
