@@ -642,7 +642,7 @@ header {
     margin-top: 10vh;
     padding: 1rem;
     width: 30vw;
-    height: 13vh;
+    height: 13.5vh;
     text-align: center;
 }
 .con5_text3 {
@@ -651,7 +651,7 @@ header {
 }
 .con5_text4 {
     margin-top: 0.5vh;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 .con5_img1 {
     width: 50%;
@@ -943,8 +943,12 @@ header {
     margin-top: -60vh;
     text-align: center;
     color: rgba(46, 187, 121, 0.25);
-    font-size: 13rem;
+    font-size: 12.5rem;
     white-space: nowrap;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
 }
 .con9_text4 {
     position: relative;
