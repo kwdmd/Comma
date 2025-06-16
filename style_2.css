@@ -335,7 +335,7 @@ header {
 .con2_textarea {
     position: relative;
     font-size: 1.5rem;
-    left: 80%;
+    left: 75%;
     top: -25vh;
 }
 .con2_box2, .con2_box3, .con2_box4, .con2_box5, .con2_box6 {
@@ -983,11 +983,11 @@ header {
 }
 .con10_line {
     position: relative;
-    top: 0;
+    top: 2.5px;
     width: 200%;
     height: 0.25vh;
     margin: 0 -50vw;
-    background: rgba(136, 136, 136, 1);
+    background: rgba(136, 136, 136, 0.3);
 }
 .con10_box3 {
     position: relative;
@@ -1189,7 +1189,7 @@ header {
     margin-top: 5vh;
     width: 100%;
     height: 65vh;
-    right: 8%;
+    right: 5%;
 }
 .con13_img2 img {
     width: 100%;
