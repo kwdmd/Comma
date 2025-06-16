@@ -110,8 +110,8 @@ body {
     bottom: 2rem;
     right: 2rem;
     padding: 0.8rem 1.2rem;
-    width: 3vw;
-    aspect-ratio: 1/1;
+    width: 60px;
+    height: 60px;
     font-size: 1.5rem;
     font-weight: 700;
     background-color: rgba(46, 187, 121, 1);
@@ -651,7 +651,7 @@ header {
 }
 .con5_text4 {
     margin-top: 0.5vh;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 .con5_img1 {
     width: 50%;
@@ -1085,7 +1085,7 @@ header {
 }
 .con11_text2 {
     margin-top: 2vh;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: black;
 }
 .con12_box1 {
